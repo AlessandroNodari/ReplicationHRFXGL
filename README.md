@@ -1,1 +1,3 @@
-# ReplicationHRFXGL
+# HFRX Global Hedge Fund Index Replication and Forecasting
+
+Index replication is a famous problem in finance. An Index is often made up of hundreds of equities or even other indexes. Our goal was to replicate its returns using a much smaller portfolio. In particular we designed a proprietary algorithm to determine the weights of a dynamic long-only portfolio of 11 common futures which super-replicate the HFRXGL index. We managed also to forecast such index and deploy a similar strategy paying only (yearly) 0.039% of our initial capital  in fees (assuming flat fees per operation equal to 0.02%). In comparison the hedge funds charged an average of 1.4% in management fee and 16.4% in performance fee.
